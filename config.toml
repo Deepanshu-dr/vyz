@@ -1,4 +1,4 @@
-baseURL = "https://vyz-test.onrender.com"
+baseURL = "https://vyz.vercel.app"
 languageCode = "en-us"
 title = "VYZ | Create stunning stock market visualizations"
 theme = "navigator-hugo"
