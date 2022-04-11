@@ -1,0 +1,132 @@
+baseURL = "http://localhost"
+languageCode = "en-us"
+title = "VYZ | Create stunning stock market visualizations"
+theme = "navigator-hugo"
+summaryLength = 10
+
+# Build robots.txt file
+enableRobotsTXT = true
+# google analytics tracking id
+googleAnalytics = "" # your analitics ID
+
+enableGitInfo = false
+pygmentsCodeFences = true
+
+
+# Site Params
+[params]
+logo = "images/logo.png"
+
+
+
+# meta data
+author = "VYZ"
+description = "This is meta description"
+
+
+############# 2 - Site en ENGLISH
+[Languages.en]
+weight = 2
+languageCode = "en-us"
+title = "VYZ"
+dateFormat = "January 2, 2006"
+home = "Home"
+logo = "images/logo.png"
+menufixed = false
+
+footerDescription = "We are a team of stock market and finance enthusiasts, looking to help journalists, bloggers, and influencers better convey their messages. We start with stock market visualizations, but have ongoing plans on helping anyone to better convey their message in graphically appealing visualizations. Contact us to learn if we can meet your specific requirements, we’re always curious to learn."
+
+
+footerQuicklinkTitle = "Quicklinks"
+footerAboutTitle = "About"
+footerSubscribeTitle = "Subscribe"
+
+
+# cookies
+[params.cookies]
+enable = true
+expire_days = 2
+
+# Hero Area Section
+[Languages.en.params.hero]
+enable = true
+heading = "Create stunning stock market visualizations"
+description = "Adapted to look good on social media and articles.."
+button = true
+btnText = "Start now"
+btnURL = "https://start.vyz.app/"
+videoThumb = "images/theme3.png"
+
+
+# About 2 Section
+[Languages.en.params.aboutSm]
+enable = true
+title = "WHO ARE WE ?"
+description = "We are a team of stock market and finance enthusiasts, looking to help journalists, bloggers, and influencers better convey their messages. We start with stock market visualizations, but have ongoing plans on helping anyone to better convey their message in graphically appealing visualizations. Contact us to learn if we can meet your specific requirements, we’re always curious to learn."
+
+# Blog Section On Homepage
+[Languages.en.params.blog]
+enable = true
+topTitle = "OUR BLOG"
+title = "Blog."
+subtitle = ""
+
+# Contact Section
+[Languages.en.params.contact]
+enable = true
+topTitle = "DROP US A NOTE"
+title = "Contact Us."
+subtitle = "Feel free to contact us at team@vyz.app"
+address = "14/05, Stockhome <br> Victori Palace , United States"
+phone = "(03) 9283 2617"
+fax = "+61 3827 3590"
+facebook = "https://www.facebook.com/"
+twitter = "https://twitter.com/"
+linkedin = "https://www.linkedin.com/"
+dribbble = "https://dribbble.com/"
+instagram = "https://www.instagram.com/"
+
+
+# Call to Action Section on About Page
+[Languages.en.params.cta]
+enable = true
+bg = "images/call-to-action/call-to-action-bg-2.jpg"
+title = "Let's Create Something Together"
+subtitle = " "
+btnText = "Contact Us"
+
+# We Used Themefisher Icon font for Icon, for more details check this github repository - https://github.com/themefisher/themefisher-font
+
+# Site Menus
+[menu]
+# Navbar Menus
+[[menu.nav]]
+name = "about"
+url = "about/"
+weight = 2
+
+
+[[menu.nav]]
+name = "blog"
+url = "blog/"
+weight = 3
+[[menu.nav]]
+name = "contact"
+url = "contact/"
+weight = 4
+
+
+
+# Footer Quick links Menu
+[[menu.quicklink]]
+name = "Contact"
+url = "contact/"
+weight = 1
+[[menu.quicklink]]
+name = "about"
+url = "about/"
+weight = 2
+[[menu.quicklink]]
+name = "blog"
+url = "blog/"
+weight = 3

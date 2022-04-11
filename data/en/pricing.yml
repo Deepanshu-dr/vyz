@@ -1,0 +1,29 @@
+enable  : true
+topTitle: PRICING
+title   : Our  Pricing.
+subtitle : 
+
+item  :
+  - name        : FREE PLAN
+    price       : Free
+    description : 
+    featurelist :
+      - item: All features
+      - item: Commercial use allowed
+      - item: Attribution required. Must link to vyz website and/or leave link in image
+      
+    btnText     : Get started
+    btnURL      : https://themefisher.com/
+
+  - name        : ENTERPRISE PLAN
+    price       : Contact for pricing
+    description : 
+    featurelist :
+      - item: All features
+      - item: Commercial use allowed
+      - item: Attribution not required.
+    
+    btnText     : Get started.
+    btnURL      : https://themefisher.com/
+
+  

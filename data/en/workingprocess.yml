@@ -1,0 +1,33 @@
+enable  : true
+topTitle: HOW WE WORKS
+title   : HOW IT WORKS
+subtitle: Use our 5-minute online wizard to create your amazing visualization that conveys your message
+item    :
+  - number  : 1
+    icon    : tf-ion-arrow-graph-up-right
+    title   : Choose stocks
+    description : >
+      (ask us about currencies and other indices)
+
+  - number  : 2
+    icon    : tf-ion-ios-grid-view
+    title   : Choose columns
+    description : >
+      More than 20 available data points/visualizations
+
+  - number  : 3
+    icon    : tf-ion-ios-browsers
+    title   : Pick up theme
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vitae risus nec dui venenatis.
+
+  - number  : 4
+    icon    : tf-ion-ios-gear
+    title   : Apply customisation
+    description : >
+    
+  - number  : 5
+    icon    : tf-ion-ios-email-outline
+    title   : Get result by e-mail
+    description : >
+      

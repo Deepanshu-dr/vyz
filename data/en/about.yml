@@ -1,0 +1,23 @@
+enable  : true
+item    :
+  - positionRight : false
+    image : images/theme1.jpg
+    title : Theme 1
+    description : >
+      
+
+  - positionRight : false
+    image : images/theme2.jpg
+    title : Theme 2
+    description : >
+    
+  - positionRight : false
+    image : images/theme3.png
+    title : Theme 3
+    description : >
+    
+  - positionRight : false
+    image : images/theme4.png
+    title : Theme 4
+    description : >
+      
