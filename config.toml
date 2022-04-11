@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "https://vyz.onrender.com"
 languageCode = "en-us"
 title = "VYZ | Create stunning stock market visualizations"
 theme = "navigator-hugo"
